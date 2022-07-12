@@ -1,0 +1,67 @@
+ body{
+     background: url("./img/BACKGROUND.png") no-repeat center/cover;
+ }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuA{
+    color: #FFFFFF;
+    font-family: 'Trispace',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+}
+.bigMenu{
+    font-family: 'Trispace',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 4px 7px rgba(0, 0, 0, 0.18);
+}
+.heroku{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.heroH1{
+    width: 450px;
+    font-family: 'Trispace',sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 96px;
+}
+.btn{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background: linear-gradient(270deg, #E07B97 -9.58%, rgba(91, 61, 201, 0.7) 126.87%);
+    border: 3px solid #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 15px;
+}
+.img{
+    margin: 5px;
+}
